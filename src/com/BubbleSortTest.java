@@ -2,14 +2,11 @@ package com;
 
 import java.util.Random;
 
-import org.junit.Before;
-import org.junit.Test;
-
 public class BubbleSortTest {
 	private int[] numbers;
     private final static int SIZE = 7;
     private final static int MAX = 20;
-    @Before
+    //@Before
     public void setUp() throws Exception {
         numbers = new int[SIZE];
         Random generator = new Random();
@@ -18,17 +15,17 @@ public class BubbleSortTest {
         }
     }
     
-    @Test
+    //@Test
     public void testNull() {
         SortDemo sorter = new SortDemo();
         sorter.sort(null);
     }
-    @Test
+    //@Test
     public void testEmpty() {
         Quicksort sorter = new Quicksort();
         sorter.sort(new int[0]);
     }
-    @Test
+    //@Test
     public void testQuickSort() {
     	SortDemo sorter = new SortDemo();
         sorter.sort(numbers);
