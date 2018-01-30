@@ -1,6 +1,5 @@
 package com;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class MySimpleGenerics {
 
